@@ -56,5 +56,10 @@ public class Time
 	{
 		this.minute = minute;
 	}
+	
+	public String toString()
+	{
+		return "at "+hour+":"+minute+"on "+month+"/"+day+"/"+year+".";
+	}
 
 }

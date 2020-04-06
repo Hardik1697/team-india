@@ -1,10 +1,11 @@
 
-public class Movie
+public class Movie 
 {
 	private String movieName;
 	private int movieID;
 	private boolean availability;
-
+	Time time = new Time();
+	System.out.println(time.getDay());
 	public String getMovieName()
 	{
 		return movieName;
